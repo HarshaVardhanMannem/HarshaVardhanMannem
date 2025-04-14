@@ -4,8 +4,8 @@
 I'm an Electrical and Computer Engineering graduate with a passion for AI-powered solutions, computer vision, and deep learning. Currently based in Birmingham, AL, I focus on developing intelligent applications that solve real-world problems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-vardhan-mannem-71a61a1a6/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshavardhanmannem9347@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-27AE60?style=for-the-badge&logo=phone&logoColor=white)](tel:2059949871)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](harshavardhanmannem9347@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-27AE60?style=for-the-badge&logo=phone&logoColor=white)](2059949871)
 
 ## 🚀 Skills & Technologies
 
@@ -85,4 +85,4 @@ Automated and optimized chatbot testing scenarios using data-driven approaches, 
 - AI | Explore ML – Google
 
 ---
-⭐️ From [yourusername](https://github.com/HarshaVardhanMannem)
+⭐️ From [Harsha Vardhan Mannem](https://github.com/HarshaVardhanMannem)
