@@ -898,10 +898,14 @@
 
     <div class="bg-pattern"></div>
 
-    <div id="view-count" class="text-center text-gray-600 mt-4 mb-4">
-        Views: <span id="counter">0</span>
+    <!-- View Counter - Fixed position in bottom right corner, small and non-intrusive -->
+    <div id="view-counter" class="fixed bottom-6 right-6 z-50 bg-white/70 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-gray-600 shadow border border-gray-200 pointer-events-none select-none flex items-center gap-1">
+        <span class="text-base">👁️</span>
+        <span id="counter">0</span> views
     </div>
+    
     <script>
+        //
         // Simple view counter using localStorage
         function updateViewCount() {
             let views = localStorage.getItem('portfolioViews');
@@ -915,6 +919,16 @@
         
         // Update view count when page loads
         updateViewCount();
+    
     </script>
+    <script>
+        // Add this script to reset the view counter
+        function resetViewCounter() {
+            localStorage.removeItem('portfolioViews');
+            location.reload();
+        }
+    </script>
+
+    
 </body>
 </html>
