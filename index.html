@@ -897,5 +897,17 @@
     </style>
 
     <div class="bg-pattern"></div>
+
+    <div id="view-count" class="text-center text-gray-600 mt-4">
+        Views: <span id="counter">Loading...</span>
+    </div>
+    <script>
+        // Replace 'harsha-portfolio' with a unique name for your site
+        fetch('https://api.countapi.xyz/hit/harshavardhanmannem.github.io/visits')
+            .then(res => res.json())
+            .then(res => {
+                document.getElementById('counter').innerText = res.value;
+            });
+    </script>
 </body>
 </html>
