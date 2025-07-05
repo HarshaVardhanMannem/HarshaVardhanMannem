@@ -898,16 +898,23 @@
 
     <div class="bg-pattern"></div>
 
-    <div id="view-count" class="text-center text-gray-600 mt-4">
-        Views: <span id="counter">Loading...</span>
+    <div id="view-count" class="text-center text-gray-600 mt-4 mb-4">
+        Views: <span id="counter">0</span>
     </div>
     <script>
-        // Replace 'harsha-portfolio' with a unique name for your site
-        fetch('https://api.countapi.xyz/hit/harshavardhanmannem.github.io/visits')
-            .then(res => res.json())
-            .then(res => {
-                document.getElementById('counter').innerText = res.value;
-            });
+        // Simple view counter using localStorage
+        function updateViewCount() {
+            let views = localStorage.getItem('portfolioViews');
+            if (!views) {
+                views = 0;
+            }
+            views = parseInt(views) + 1;
+            localStorage.setItem('portfolioViews', views);
+            document.getElementById('counter').innerText = views;
+        }
+        
+        // Update view count when page loads
+        updateViewCount();
     </script>
 </body>
 </html>
