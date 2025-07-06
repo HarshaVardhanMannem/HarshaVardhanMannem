@@ -656,7 +656,18 @@
             <div class="border-t border-gray-800 pt-8">
                 <div class="flex flex-col md:flex-row justify-between items-center">
                     <p class="text-gray-400 text-sm mb-4 md:mb-0">&copy; 2024 Harsha Vardhan Mannem. All rights reserved.</p>
-                
+                    <span class="flex items-center">
+                        <span class="text-base" style="font-size:1.2em;margin-right:4px;">👁️</span>
+                        <a href="https://www.freecounterstat.com" title="website hit counter">
+                            <img 
+                                src="https://counter1.optistats.ovh/private/freecounterstat.php?c=98f5yynw7ykzgw7kgrn3k23jbyt1en1h" 
+                                border="0" 
+                                title="website hit counter" 
+                                alt="website hit counter" 
+                                style="width:60px;max-width:100%;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.08);background:rgba(255,255,255,0.5);backdrop-filter:blur(2px);padding:1px 3px;vertical-align:middle;filter: grayscale(80%) brightness(0.9) contrast(0.85);"
+                            />
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
@@ -1006,82 +1017,5 @@
 
     <div class="bg-pattern"></div>
 
-    <!-- View Counter - Fixed position in bottom right corner, small and non-intrusive -->
-    <div id="view-counter" class="fixed bottom-6 right-6 z-50 bg-white/70 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-gray-600 shadow border border-gray-200 pointer-events-none select-none flex items-center gap-1">
-        <span class="text-base">👁️</span>
-        <span id="counter">0</span> views
-    </div>
-    
-    <script>
-        // View counter functionality
-        async function updateViewCount() {
-            try {
-                // Try to get the current count first
-                const getResponse = await fetch('https://api.countapi.xyz/get/harshavardhanmannem.github.io/visits');
-                let currentCount = 0;
-                
-                if (getResponse.ok) {
-                    const getData = await getResponse.json();
-                    currentCount = getData.value || 0;
-                }
-                
-                // Increment the count
-                const hitResponse = await fetch('https://api.countapi.xyz/hit/harshavardhanmannem.github.io/visits');
-                
-                if (hitResponse.ok) {
-                    const hitData = await hitResponse.json();
-                    const newCount = hitData.value;
-                    document.getElementById('counter').innerText = newCount;
-                    
-                    // Store the count for faster loading next time
-                    localStorage.setItem('lastKnownViews', newCount.toString());
-                    localStorage.setItem('lastUpdateTime', Date.now().toString());
-                    
-                    console.log('View count updated successfully:', newCount);
-                } else {
-                    throw new Error(`Hit API failed: ${hitResponse.status}`);
-                }
-                
-            } catch (error) {
-                console.warn('API failed, using localStorage fallback:', error);
-                
-                // Fallback to localStorage
-                let views = parseInt(localStorage.getItem('portfolioViews') || '0');
-                const lastUpdate = parseInt(localStorage.getItem('lastUpdateTime') || '0');
-                const now = Date.now();
-                
-                // Only increment if it's been more than 5 minutes since last update
-                if (now - lastUpdate > 300000) { // 5 minutes in milliseconds
-                    views += 1;
-                    localStorage.setItem('portfolioViews', views.toString());
-                    localStorage.setItem('lastUpdateTime', now.toString());
-                }
-                
-                document.getElementById('counter').innerText = views;
-            }
-        }
-        
-        // Initialize view counter on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            // Show cached value immediately if available
-            const cachedViews = localStorage.getItem('lastKnownViews') || localStorage.getItem('portfolioViews');
-            if (cachedViews) {
-                document.getElementById('counter').innerText = cachedViews;
-            }
-            
-            // Update the count
-            updateViewCount();
-        });
-        
-        // Reset function for debugging
-        function resetViewCounter() {
-            localStorage.removeItem('portfolioViews');
-            localStorage.removeItem('lastKnownViews');
-            localStorage.removeItem('lastUpdateTime');
-            location.reload();
-        }
-    </script>
-
-    
 </body>
 </html>
