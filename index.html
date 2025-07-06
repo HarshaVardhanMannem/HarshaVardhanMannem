@@ -1012,46 +1012,72 @@
         <span id="counter">0</span> views
     </div>
     
-        <script>
-        // Increment view count
+    <script>
+        // View counter functionality
         async function updateViewCount() {
             try {
-                // Use your existing API endpoint
-                const response = await fetch('https://api.countapi.xyz/hit/harshavardhanmannem.github.io/visits');
+                // Try to get the current count first
+                const getResponse = await fetch('https://api.countapi.xyz/get/harshavardhanmannem.github.io/visits');
+                let currentCount = 0;
                 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                if (getResponse.ok) {
+                    const getData = await getResponse.json();
+                    currentCount = getData.value || 0;
                 }
                 
-                const data = await response.json();
-                document.getElementById('counter').innerText = data.value;
+                // Increment the count
+                const hitResponse = await fetch('https://api.countapi.xyz/hit/harshavardhanmannem.github.io/visits');
                 
-                // Optional: Store the latest count for faster loading next time
-                localStorage.setItem('lastKnownViews', data.value);
+                if (hitResponse.ok) {
+                    const hitData = await hitResponse.json();
+                    const newCount = hitData.value;
+                    document.getElementById('counter').innerText = newCount;
+                    
+                    // Store the count for faster loading next time
+                    localStorage.setItem('lastKnownViews', newCount.toString());
+                    localStorage.setItem('lastUpdateTime', Date.now().toString());
+                    
+                    console.log('View count updated successfully:', newCount);
+                } else {
+                    throw new Error(`Hit API failed: ${hitResponse.status}`);
+                }
                 
             } catch (error) {
                 console.warn('API failed, using localStorage fallback:', error);
                 
-                // Fallback to localStorage if API fails
-                let views = localStorage.getItem('portfolioViews');
-                if (!views) {
-                    views = localStorage.getItem('lastKnownViews') || 0;
+                // Fallback to localStorage
+                let views = parseInt(localStorage.getItem('portfolioViews') || '0');
+                const lastUpdate = parseInt(localStorage.getItem('lastUpdateTime') || '0');
+                const now = Date.now();
+                
+                // Only increment if it's been more than 5 minutes since last update
+                if (now - lastUpdate > 300000) { // 5 minutes in milliseconds
+                    views += 1;
+                    localStorage.setItem('portfolioViews', views.toString());
+                    localStorage.setItem('lastUpdateTime', now.toString());
                 }
-                views = parseInt(views) + 1;
-                localStorage.setItem('portfolioViews', views);
+                
                 document.getElementById('counter').innerText = views;
             }
         }
         
-        // Update view count when page loads
-        updateViewCount();
-    </script>
-
-    </script>
-    <script>
-        // Add this script to reset the view counter
+        // Initialize view counter on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show cached value immediately if available
+            const cachedViews = localStorage.getItem('lastKnownViews') || localStorage.getItem('portfolioViews');
+            if (cachedViews) {
+                document.getElementById('counter').innerText = cachedViews;
+            }
+            
+            // Update the count
+            updateViewCount();
+        });
+        
+        // Reset function for debugging
         function resetViewCounter() {
             localStorage.removeItem('portfolioViews');
+            localStorage.removeItem('lastKnownViews');
+            localStorage.removeItem('lastUpdateTime');
             location.reload();
         }
     </script>
