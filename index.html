@@ -670,6 +670,106 @@
     </footer>
 
     <script>
+        // Google Analytics Event Tracking for Portfolio Links
+        function trackLinkClick(linkName, linkUrl) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'click', {
+                    'event_category': 'Portfolio Link',
+                    'event_label': linkName,
+                    'link_url': linkUrl
+                });
+            }
+        }
+
+        // Track all external links
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track GitHub links
+            document.querySelectorAll('a[href*="github.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('GitHub Profile', this.href);
+                });
+            });
+
+            // Track LinkedIn links
+            document.querySelectorAll('a[href*="linkedin.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('LinkedIn Profile', this.href);
+                });
+            });
+
+            // Track HackerRank links
+            document.querySelectorAll('a[href*="hackerrank.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('HackerRank Profile', this.href);
+                });
+            });
+
+            // Track LeetCode links
+            document.querySelectorAll('a[href*="leetcode.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('LeetCode Profile', this.href);
+                });
+            });
+
+            // Track Hugging Face links
+            document.querySelectorAll('a[href*="huggingface.co"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('Hugging Face Profile', this.href);
+                });
+            });
+
+            // Track Medium/Blog links
+            document.querySelectorAll('a[href*="medium.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('Medium Blog', this.href);
+                });
+            });
+
+            // Track project links
+            document.querySelectorAll('a[href*="github.com/HarshaVardhanMannem"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    const projectName = this.closest('.project-card')?.querySelector('h3')?.textContent || 'Project';
+                    trackLinkClick(projectName, this.href);
+                });
+            });
+
+            // Track certification links
+            document.querySelectorAll('a[href*="learn.nvidia.com"], a[href*="kaggle.com"], a[href*="docker.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    const certName = this.closest('.bg-white')?.querySelector('h3')?.textContent || 'Certification';
+                    trackLinkClick(certName, this.href);
+                });
+            });
+
+            // Track publication links
+            document.querySelectorAll('a[href*="ijraset.com"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('Research Publication', this.href);
+                });
+            });
+
+            // Track open source contribution links
+            document.querySelectorAll('a[href*="github.com/bytedance"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('Open Source Contribution', this.href);
+                });
+            });
+
+            // Track email clicks
+            document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('Email Contact', this.href);
+                });
+            });
+
+            // Track phone clicks
+            document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    trackLinkClick('Phone Contact', this.href);
+                });
+            });
+        });
+
         document.querySelector('.hamburger').addEventListener('click', function() {
             this.classList.toggle('active');
             document.querySelector('.nav-links').classList.toggle('active');
