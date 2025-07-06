@@ -1013,21 +1013,27 @@
     </div>
     
     <script>
-        //
-        // Simple view counter using localStorage
-        function updateViewCount() {
-            let views = localStorage.getItem('portfolioViews');
-            if (!views) {
-                views = 0;
+        // Unique visitor counter using API
+        async function updateViewCount() {
+            try {
+                // Use a free counter API for unique visitors across devices
+                const response = await fetch('https://api.countapi.xyz/hit/harsha-portfolio-unique/visits');
+                const data = await response.json();
+                document.getElementById('counter').innerText = data.value;
+            } catch (error) {
+                // Fallback to localStorage if API fails
+                let views = localStorage.getItem('portfolioViews');
+                if (!views) {
+                    views = 0;
+                }
+                views = parseInt(views) + 1;
+                localStorage.setItem('portfolioViews', views);
+                document.getElementById('counter').innerText = views;
             }
-            views = parseInt(views) + 1;
-            localStorage.setItem('portfolioViews', views);
-            document.getElementById('counter').innerText = views;
         }
         
         // Update view count when page loads
         updateViewCount();
-    
     </script>
     <script>
         // Add this script to reset the view counter
