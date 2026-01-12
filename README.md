@@ -51,13 +51,6 @@ I'm an Electrical and Computer Engineering graduate with a passion for AI-powere
 - **Bachelor of Technology in Electronics and Communications Engineering**  
   Sreenidhi Institute of Science and Technology, Hyderabad, India | GPA: 3.2/4.0 | Aug 2021
 
-## 💼 Professional Experience
-**Software Engineer (SDET)**  
-LTIMindtree, Hyderabad, India | Aug 2021 – Aug 2023
-- Led testing for AI-powered chatbot applications
-- Automated test cases using Cypress with Mocha
-- Conducted data analysis to optimize testing performance
-
 ## 🧠 Projects
 
 ### LLM-powered Research Papers QA Bot
