@@ -57,6 +57,21 @@ class HarshaVardhanMannem:
 
 ---
 
+## 🧪 ML Engineering Experience
+
+| Discipline | Technologies & Practices |
+|-----------|--------------------------|
+| 🏋️ **Model Training** | PyTorch, Transformers fine-tuning, LoRA/QLoRA, PEFT, custom training loops |
+| 📊 **Data Pipelines** | ETL workflows, data preprocessing, feature engineering, HuggingFace Datasets |
+| 🔬 **Experiment Tracking** | MLflow, Weights & Biases, reproducible training runs |
+| ⚙️ **Model Optimization** | ONNX export, TensorRT, quantization (INT8/FP16), pruning |
+| 🚀 **Model Serving** | FastAPI inference endpoints, TorchServe, Triton Inference Server |
+| 🤖 **Agentic AI** | Multi-agent pipelines with LangGraph, CrewAI, Google ADK |
+| 📈 **MLOps** | CI/CD for ML, model versioning, A/B testing, drift monitoring |
+| 🖼️ **Computer Vision** | Object detection, image classification, segmentation (PyTorch + OpenCV) |
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -69,12 +84,17 @@ class HarshaVardhanMannem:
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**AI / ML**
+**AI / ML & Agents**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/🤗%20Transformers-FFD21E?style=for-the-badge&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=robotframework&logoColor=white)
+![Google ADK](https://img.shields.io/badge/Google%20ADK-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 **Backend & Web**
 
@@ -100,11 +120,16 @@ class HarshaVardhanMannem:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&count_private=true" alt="GitHub Stats" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshaVardhanMannem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=8" alt="Top Languages" height="180"/>
-
-<br/>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&count_private=true" alt="GitHub Stats"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshaVardhanMannem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=8" alt="Top Languages"/>
+    </td>
+  </tr>
+</table>
 
 <img src="https://streak-stats.demolab.com?user=HarshaVardhanMannem&theme=tokyonight&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=e94560" alt="GitHub Streak" height="180"/>
 
