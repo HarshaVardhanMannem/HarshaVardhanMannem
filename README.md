@@ -134,7 +134,7 @@ class HarshaVardhanMannem:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8" alt="GitHub Stats" height="180"/>
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshaVardhanMannem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=8" alt="Top Languages" height="180"/>
 
@@ -144,7 +144,7 @@ class HarshaVardhanMannem:
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=HarshaVardhanMannem&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=HarshaVardhanMannem&theme=tokyonight&no-frame=true&column=6&margin-w=8&margin-h=8" alt="GitHub Trophies" width="100%"/>
 
 <br/><br/>
 
