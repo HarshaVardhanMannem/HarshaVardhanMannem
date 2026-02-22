@@ -120,14 +120,6 @@ class HarshaVardhanMannem:
 
 <div align="center">
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshaVardhanMannem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=8" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
-
 <img src="https://streak-stats.demolab.com?user=HarshaVardhanMannem&theme=tokyonight&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=e94560" alt="GitHub Streak" height="180"/>
 
 </div>
