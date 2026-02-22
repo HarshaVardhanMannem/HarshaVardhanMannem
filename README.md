@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Harsha%20Vardhan%20Mannem&fontSize=42&fontColor=e94560&fontAlignY=38&desc=AI%2FML%20Software%20Engineer&descAlignY=58&descSize=20&descColor=a8b2d8&animation=fadeIn" alt="header" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E94560&center=true&vCenter=true&width=700&lines=Building+Production-Grade+AI+Systems+%F0%9F%A4%96;LLMs+%7C+RAG+%7C+Deep+Learning+%7C+Computer+Vision;FastAPI+%7C+NestJS+%7C+Spring+Boot+%7C+Django;AWS+%7C+Azure+%7C+Docker+%7C+GPU+Deployment)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E94560&center=true&vCenter=true&width=700&lines=Building+Production-Grade+AI+Systems+%F0%9F%A4%96;LLMs+%7C+RAG+%7C+Deep+Learning+%7C+Computer+Vision;FastAPI+%7C+NestJS+%7C+Django;AWS+%7C+Azure+%7C+Docker+%7C+GPU+Deployment)](https://git.io/typing-svg)
 
 <p>
   <a href="https://www.linkedin.com/in/harsha-vardhan-mannem-71a61a1a6/">
@@ -11,10 +11,15 @@
   <a href="mailto:harshavardhanmannem9347@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://huggingface.co/HarshaVardhanMannem">
+  <a href="https://huggingface.co/Harsha901">
     <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=HarshaVardhanMannem&style=for-the-badge&color=e94560&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <a href="https://leetcode.com/u/Harsha_901/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://www.hackerrank.com/profile/harsha90145">
+    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank"/>
+  </a>
 </p>
 
 📍 Birmingham, AL &nbsp;|&nbsp; 🤖 AI/ML Engineer &nbsp;|&nbsp; 🚀 Open-Source Contributor
@@ -35,7 +40,7 @@ class HarshaVardhanMannem:
         self.location     = "Birmingham, AL 📍"
         self.role         = "AI/ML Software Engineer"
         self.focus        = ["LLMs", "RAG", "Deep Learning", "Computer Vision"]
-        self.backend      = ["FastAPI", "Django", "NestJS", "Spring Boot"]
+        self.backend      = ["FastAPI", "Django", "NestJS"]
         self.cloud        = ["AWS", "Azure", "Docker", "GPU Deployment"]
         self.currently    = "Building production LLM systems 🚀"
 
@@ -51,7 +56,7 @@ class HarshaVardhanMannem:
 |------|---------|
 | 🧠 **LLM Systems** | Integration, fine-tuning, and inference optimization |
 | 🔍 **RAG Pipelines** | Retrieval-Augmented Generation & AI microservices |
-| 🛠️ **Backend Dev** | FastAPI, Django, NestJS, Spring Boot REST APIs |
+| 🛠️ **Backend Dev** | FastAPI, Django, NestJS REST APIs |
 | ☁️ **Cloud & Infra** | AWS, Azure, Docker, CI/CD, GPU-accelerated deployment |
 | 📦 **Open Source** | Publishing & optimizing NLP and generative AI models |
 
@@ -69,6 +74,7 @@ class HarshaVardhanMannem:
 | 🤖 **Agentic AI** | Multi-agent pipelines with LangGraph, CrewAI, Google ADK |
 | 📈 **MLOps** | CI/CD for ML, model versioning, A/B testing, drift monitoring |
 | 🖼️ **Computer Vision** | Object detection, image classification, segmentation (PyTorch + OpenCV) |
+| 🧪 **Test Automation** | Selenium, Playwright, Cypress — UI, E2E, and API test automation |
 
 ---
 
@@ -111,6 +117,14 @@ class HarshaVardhanMannem:
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+**Testing & Automation**
+
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 
 </div>
 
