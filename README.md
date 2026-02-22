@@ -123,9 +123,6 @@ class HarshaVardhanMannem:
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&count_private=true" alt="GitHub Stats"/>
-    </td>
-    <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshaVardhanMannem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=8" alt="Top Languages"/>
     </td>
   </tr>
