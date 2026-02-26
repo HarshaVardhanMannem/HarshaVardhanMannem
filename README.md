@@ -134,7 +134,13 @@ class HarshaVardhanMannem:
 
 <div align="center">
 
+&nbsp;&nbsp;
+
 <img src="https://streak-stats.demolab.com?user=HarshaVardhanMannem&theme=tokyonight&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=e94560" alt="GitHub Streak" height="180"/>
+
+<br/><br/>
+
+![Stars](https://img.shields.io/github/stars/HarshaVardhanMannem?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&label=%E2%AD%90%20Stars%20Earned&color=e94560&labelColor=0d1117)
 
 <br/><br/>
 
