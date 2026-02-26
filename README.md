@@ -134,6 +134,10 @@ class HarshaVardhanMannem:
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=a8b2d8&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
+
+&nbsp;&nbsp;
+
 <img src="https://streak-stats.demolab.com?user=HarshaVardhanMannem&theme=tokyonight&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=e94560" alt="GitHub Streak" height="180"/>
 
 <br/><br/>
