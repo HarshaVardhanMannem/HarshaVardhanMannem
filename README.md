@@ -22,6 +22,8 @@
   </a>
 </p>
 
+<img src="https://komarev.com/ghpvc/?username=HarshaVardhanMannem&color=e94560&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+
 📍 Birmingham, AL &nbsp;|&nbsp; 🤖 AI/ML Engineer &nbsp;|&nbsp; 🚀 Open-Source Contributor
 
 </div>
@@ -134,6 +136,12 @@ class HarshaVardhanMannem:
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=HarshaVardhanMannem&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=a8b2d8&text_color=a8b2d8&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" height="180"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshaVardhanMannem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=a8b2d8&langs_count=8" alt="Top Languages" height="180"/>
+
+<br/><br/>
+
 <img src="https://streak-stats.demolab.com?user=HarshaVardhanMannem&theme=tokyonight&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=e94560" alt="GitHub Streak" height="180"/>
 
 <br/><br/>
@@ -143,6 +151,10 @@ class HarshaVardhanMannem:
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=HarshaVardhanMannem&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=e94560&line=e94560&point=a8b2d8&area=true&area_color=e94560&custom_title=Contribution%20Graph" alt="Contribution Graph" width="100%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=HarshaVardhanMannem&theme=tokyonight&no-frame=true&column=7&margin-w=4&no-bg=true" alt="GitHub Trophies" width="100%"/>
 
 </div>
 
