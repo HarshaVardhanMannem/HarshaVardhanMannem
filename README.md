@@ -146,10 +146,6 @@ class HarshaVardhanMannem:
 
 <br/><br/>
 
-![Stars](https://img.shields.io/github/stars/HarshaVardhanMannem?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&label=%E2%AD%90%20Stars%20Earned&color=e94560&labelColor=0d1117)
-
-<br/><br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=HarshaVardhanMannem&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=e94560&line=e94560&point=a8b2d8&area=true&area_color=e94560&custom_title=Contribution%20Graph" alt="Contribution Graph" width="100%"/>
 
 <br/><br/>
@@ -169,19 +165,6 @@ class HarshaVardhanMannem:
 | 🏅 **AWS Certified Machine Learning Engineer – Associate** | Amazon Web Services |
 | 🏅 **Oracle Cloud Generative AI Professional** | Oracle |
 | 🏅 **NVIDIA Deep Learning Institute** | NVIDIA |
-
-</div>
-
----
-
-## 🎯 Current Focus
-
-<div align="center">
-
-| | |
-|:---:|:---:|
-| 🔹 Production LLM Systems | 🔹 Scalable Backend Architecture |
-| 🔹 High-Performance Inference | 🔹 AI-Powered Applications |
 
 </div>
 
